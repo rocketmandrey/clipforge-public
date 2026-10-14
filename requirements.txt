@@ -1,0 +1,4 @@
+numpy          # tools/audio.py (music, SFX, mix)
+# tools/beats.py (beats of your own track):
+# librosa
+# demucs

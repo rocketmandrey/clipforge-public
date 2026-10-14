@@ -1,0 +1,12 @@
+{
+  "name": "clipforge-public",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "doctor": "sh tools/doctor.sh",
+    "demo": "sh tools/build.sh",
+    "demo:wide": "sh tools/build.sh wide",
+    "sheet": "node tools/render.mjs --sheet"
+  },
+  "dependencies": { "puppeteer-core": "^25.11.0" }
+}
